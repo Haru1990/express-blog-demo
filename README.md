@@ -35,5 +35,30 @@ mongodb数据库配置文件
 - mongod --dbpath ../data/blog
 > 可以看到mongodb自动连接端口27017
 
+# express-blog-demo
+
+use express-generator init blog and use mongodb to deal the data
+
+> 包含用户注册、登录、发布文章、登出功能
+
+#### how to start
+
+- 1. npm insatll 安装依赖
+- 2. (mongodb/bin下面执行) mongod --dbpath ../data/blog
+- 3. npm start 启动项目
+
+> 注意：express、express-generator和mongodb提前安装
+
+#### mongodb
+- 官网下载即可：https://www.mongodb.com/what-is-mongodb
+- 命令行启动：(mongodb/bin下面执行) mongod --dbpath ../data/blog
+
+#### blog主页面介绍
+
+- index主页面
+- login登录页
+- post发表页
+- register注册页面
+
 
 
