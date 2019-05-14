@@ -31,6 +31,7 @@ mongodb数据库配置文件
 ## mongodbv3.4
 
 ### 启动
+- cd D:\mongodb\data && mkdir blog
 - cd D:\mongodb\bin
 - mongod --dbpath ../data/blog
 > 可以看到mongodb自动连接端口27017
